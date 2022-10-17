@@ -97,7 +97,7 @@ def main():
         # concatenate image matches and image warp on horizontal axis
         # img_transform = np.concatenate((img_matches, img_warp), axis=1)
         # show image
-        image.showImage(img_warp)
+        image.showImage(img_matches)
 
 
 if __name__ == "__main__":
